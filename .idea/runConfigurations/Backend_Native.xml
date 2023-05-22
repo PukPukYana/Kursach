@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Backend Native" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <option name="ACTIVE_PROFILES" value="dev" />
+    <envs>
+      <env name="SBERMARKET_MANAGER_GOOGLE_CLIENT_ID" value="863519639097-05sqshckq71a6nmdkocg5698fgnhrl4k.apps.googleusercontent.com" />
+      <env name="SBERMARKET_MANAGER_GOOGLE_CLIENT_SECRET" value="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" />
+      <env name="SPRING_DATASOURCE_PASSWORD" value="1234" />
+      <env name="SPRING_DATASOURCE_URL" value="jdbc:postgresql://localhost:5432/sber" />
+      <env name="SPRING_DATASOURCE_USERNAME" value="postgres" />
+    </envs>
+    <module name="backend" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.ynovice.sbermanager.backend.Application" />
+    <option name="VM_PARAMETERS" value="-Djdk.httpclient.allowRestrictedHeaders=content-length" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

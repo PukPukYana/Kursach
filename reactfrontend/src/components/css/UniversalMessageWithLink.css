@@ -1,0 +1,5 @@
+.universal-message-with-link {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

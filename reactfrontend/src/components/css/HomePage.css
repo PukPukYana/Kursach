@@ -1,0 +1,61 @@
+.links-row {
+    display: flex;
+    gap: 20px;
+}
+
+.products-table {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px 0;
+    padding-bottom: 80px;
+}
+.table-row {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    align-items: center;
+    vertical-align: middle;
+    padding: 0 20px;
+    background: rgba(172, 172, 172, 0.05);
+    width: fit-content;
+    gap: 40px;
+    transition: all 200ms;
+}
+.table-row:hover {
+    background: rgba(172, 172, 172, 0.2);
+}
+.table-row.heading {
+    background: inherit;
+}
+.table-row.expired {
+    background: #faa5a5;
+}
+.table-row.expired:hover {
+    background: #f68181;
+}
+.table-row.archive.expired {
+    background: #989898;
+}
+
+
+
+
+
+.table-row :nth-child(1) {
+    width: 280px;
+    height: 50%;
+    overflow: hidden;
+}
+
+.table-row :nth-child(2) {
+    width: 180px;
+    height: 50%;
+    overflow: hidden;
+}
+
+.table-row :nth-child(3) {
+    width: 190px;
+    height: 50%;
+    overflow: hidden;
+}

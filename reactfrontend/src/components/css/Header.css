@@ -1,0 +1,47 @@
+.header {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 10px 0;
+    gap: 60px;
+    box-sizing: border-box;
+
+}
+.header .title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 22px 0;
+    gap: 10px;
+}
+.header .title {
+    font-family: "Sansita", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    text-decoration: none;
+    color: #000;
+}
+.header .menu-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 2px 0;
+    gap: 30px;
+    list-style: none;
+}
+.header .menu-item {
+    padding: 20px 2px;
+}
+.header .menu-item-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #A7A7A7;
+    transition-duration: 200ms;
+}
+.header .menu-item-link:hover {
+    color: #616161;
+}

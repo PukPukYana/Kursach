@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+
+.login-greeting-container {
+    padding: 10px 0;
+}
+.login-greeting-container .greeting {
+    font-size: 48px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.login-greeting-container .greeting .greeting-site-name {
+    color: darkslategrey;
+}
+
+.login-greeting-container .login-regular-line {
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    padding-top: 15px;
+}
+
+.login-greeting-container .login-link {
+    color: royalblue;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.login-greeting-container .login-link img {
+    width: 20px;
+    margin-right: 10px;
+}

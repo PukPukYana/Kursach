@@ -1,0 +1,41 @@
+.item-stack-page{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.image img{
+    width: 100px;
+}
+
+.name {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: normal;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.section.dir-row {
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.section-title {
+    font-weight: 500;
+    color: #2F4F4F;
+}
+.important-info {
+    font-weight: 600;
+}

@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sansita&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.emoji {
+  font-size: 28px;
+}
+
+.button {
+  display: block;
+  background-color: #262626;
+  color: #fff;
+  padding: 7px 20px;
+  border-width: 0;
+  border-radius: 4px;
+  transition-duration: 200ms;
+}
+.button:not(.blocked):hover {
+  cursor: pointer;
+  box-shadow: #0f0f0f 0 0 5px;
+}
+.button.blocked {
+  background-color: #ababab;
+  cursor: default;
+}
+
+
+.cage {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 80px;
+  box-sizing: border-box;
+}
+
+.cage a {
+  text-decoration: none;
+  color: inherit;
+}
+a.link {
+  color: #354ABE;
+  text-decoration: none;
+  width: fit-content;
+  font-weight: 400;
+}
+a.link:hover {
+  text-decoration: underline;
+}
+a.link.danger {
+  color: #df3a3a;
+  text-decoration: none;
+}
+
+input[type="text"], textarea, select {
+  border-radius: 0;
+  border-width: 0;
+  border-bottom: 2px solid rgba(60, 60, 67, 0.3);
+  line-height: 16px;
+  background-color: #eff1f2;
+  padding: 5px 20px;
+  width: 200px;
+  display: block;
+  transition-duration: 200ms;
+}
+input[type="text"].short {
+  width: 33px;
+}
+textarea {
+  width: 500px;
+  height: 80px;
+  vertical-align: top;
+  display: inline;
+  text-align: left;
+  resize: none;
+  padding: 10px 20px;
+  line-height: 20px;
+  font-size: 14px;
+}
+select {
+  width: 70px;
+}
+input[type="text"]:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+  box-shadow: inset 0 0 0 32px #eff1f2 !important;
+}
+input[type="text"]:focus, textarea:focus, select:focus{
+  background-color: rgba(73, 133, 224, 0.12);
+  outline: none;
+  border-color: #1e4bd1;
+}
+input[type="text"]:-webkit-autofill:focus, textarea:-webkit-autofill:focus, select:-webkit-autofill:focus {
+  box-shadow: inset 0 0 0 32px rgba(73, 133, 224, 0.12) !important;
+}
+input[type="text"].success, textarea.success, select.success {
+  background-color: #d9ffbf;
+  border-color: #00cc00;
+}
+input[type="text"].success:-webkit-autofill, textarea.success:-webkit-autofill {
+  box-shadow: inset 0 0 0 32px #d9ffbf !important;
+}
+input[type="text"].success:focus, textarea.success:focus{
+  background-color: #c6ff9d;
+}
+input[type="text"].success:-webkit-autofill:focus, textarea.success:-webkit-autofill:focus {
+  box-shadow: inset 0 0 0 32px #c6ff9d !important;
+}
+input[type="text"].danger, textarea.danger, select.danger {
+  background-color: #ffa3a3;
+  border-color: #cc0000;
+}
+input[type="text"].danger:-webkit-autofill, textarea.danger:-webkit-autofill {
+  box-shadow: inset 0 0 0 32px #ffa3a3 !important;
+}
+input[type="text"].danger:focus, textarea.danger:focus {
+  background-color: #ff9191;
+}
+input[type="text"].danger:-webkit-autofill:focus, textarea.danger:-webkit-autofill:focus {
+  box-shadow: inset 0 0 0 32px #ff9191 !important;
+}
+input[type="text"] + .input-message, .submit-button-message, textarea + .input-message {
+  font-size: 12px;
+}
+input[type="text"] + .input-message.danger, .submit-button-message.danger, textarea + .input-message.danger {
+  color: #b50706;
+}
+input[type="text"] + .input-message.success, .submit-button-message.success, textarea + .input-message.success {
+  color: #00cc00;
+}
+
+.button {
+  display: block;
+  background-color: #262626;
+  color: #fff;
+  padding: 7px 20px;
+  border-width: 0;
+  border-radius: 4px;
+  transition-duration: 200ms;
+  width: fit-content;
+}
+.button:not(.blocked):hover {
+  cursor: pointer;
+  box-shadow: #0f0f0f 0 0 5px;
+}
+.button.blocked {
+  background-color: #ababab;
+  cursor: default;
+}

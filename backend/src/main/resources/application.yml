@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE}
+  datasource:
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: ${SBERMARKET_MANAGER_GOOGLE_CLIENT_ID}
+            client-secret: ${SBERMARKET_MANAGER_GOOGLE_CLIENT_SECRET}
+app:
+  oauth:
+    successRedirectUrl: http://localhost:3000/
+    successRedirectUrlGuests: http://localhost:3000/complete
+

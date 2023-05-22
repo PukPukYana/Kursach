@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+
+.form {
+    padding: 20px 0;
+    font-size: 16px;
+}
+.form-title {
+    font-size: 32px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.form-step-counter {
+    font-size: 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+    padding-top: 20px;
+}
+a.link-step-back {
+    color: #3453b7;
+    font-size: 14px;
+    margin-left: 15px;
+}
+.submit-button-row {
+    padding-top: 25px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.form-row {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.form-row.next-button-row {
+    padding-top: 25px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    align-items: center;
+}
+
+.input-message {
+    font-size: 12px;
+}
+.input-message.danger, .submit-button-message.danger {
+    color: #b50706;
+}
+.input-message.success {
+    color: #00cc00;
+}

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+
+.page-title {
+    font-size: 24px;
+    font-family: 'Alegreya Sans', sans-serif;
+    padding-bottom: 15px;
+}
+.button-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.while-loading {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+}
